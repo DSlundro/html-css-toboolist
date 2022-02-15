@@ -1,3 +1,19 @@
+:root {
+    --global-color: #FFFFFF;
+    --bg-body-color: #F6F8F9;
+    --add-task-color: #14AAF5;
+    --add-section-text-color: #CFD5D9;
+    --title-section-color: #4A4F58;
+    --button-editorial-color: #09A9ED;
+    --button-q1-goal-color: #AB5DE6;
+    --button-recruiting-color: #2CC6AB;
+    --button-mobile-color: #FF9B00;
+    --button-website-color: #EC4A9D;
+    --button-sales-color: #A3D116;
+    --flag-false-color: #FF3535;
+    --flag-true-color: #30C7AD;
+}
+
 *{
     margin: 0;
     box-sizing: border-box;
@@ -14,7 +30,7 @@ body{
 
 /* main */
 #site_main{
-  /*  border: 2px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
     background-color: lightgray;
     margin: 0 auto;
     margin-top: 50px;
@@ -22,10 +38,12 @@ body{
     height: auto;
 }
 
+/* nav */
 #site_nav{
     background-color: white;
 }
 
+/* bottons */
 #botton_1{
     background-color: #14AAF5;
     color: white;
@@ -38,15 +56,88 @@ body{
     border: 1px solid #C9D0D4;
     margin-left: 5px;
 }
-
 nav{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-
 nav>button{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
     margin-top: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
     padding: 6px 13px;
+}
+
+#section{
+    margin-top: 2px;
+    background-color: white;
+    padding: 50px 50px;
+}
+
+/* true - false section  */
+.true{
+    color: #30C7AD;
+    border: 1px solid #30C7AD;
+    border-radius: 50%;
+    padding: 2px 0px 1px 3px;
+    margin: 0px 10px 0px 0px;
+}
+
+.false{
+    color: #FF3535;
+    border: 1px solid #FF3535;
+    border-radius: 50%;
+    padding: 2px 0px 1px 3px;
+    margin: 0px 10px 0px 0px;
+}
+
+/* text section */
+.title_group{
+    margin-bottom: 10px;
+}
+.title_text{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.text{
+    font-size: 1.2em;
+}
+.text_style{
+    margin-top: 20px;
+}
+.sub_section{
+    margin-bottom: 45px;
+}
+
+/* main group buttons */
+.section_button{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    border-radius: 25px;
+    padding: 6px 13px;
+    color: white;
+    border: 1px solid;
+}
+
+#new_task_editioral_button, #today_editioral_button{
+    background-color: #14AAF5;
+}
+#today_q1_goal_button{
+    background-color: #AB5DE6;
+}
+#today_recruiting_button{
+    background-color: #2CC6AB;
+}
+#today_mobile_button{
+    background-color: #FF9B00;
+}
+#upcoming_website_button{
+    background-color: #EC4A9D;
+}
+#upcoming_sales_button{
+    background-color: #A3D116;
+}
+#upcoming_editorial_button{
+    background-color: #14AAF5;
 }
