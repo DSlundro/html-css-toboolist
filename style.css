@@ -1,11 +1,52 @@
 *{
     margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:lightgray;
 }
 
 /* header */
 #site_header{
     background-color: white;
     padding: 10px 20px;
-    border: 2px solid black;       /*da cancellare*/
 }
 
+/* main */
+#site_main{
+  /*  border: 2px solid red; */
+    background-color: lightgray;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 800px;
+    height: auto;
+}
+
+#site_nav{
+    background-color: white;
+}
+
+#botton_1{
+    background-color: #14AAF5;
+    color: white;
+    border: 1px solid #14AAF5;
+    margin-left: 50px;
+}
+#botton_2{
+    background-color: white;
+    color: #C9D0D4;
+    border: 1px solid #C9D0D4;
+    margin-left: 5px;
+}
+
+nav{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+nav>button{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 6px 13px;
+}
